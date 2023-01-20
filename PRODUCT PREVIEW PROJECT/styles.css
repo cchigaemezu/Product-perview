@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    margin: 40px 20px;
+}
+
+.image-mobile {
+    border-radius: 10px 10px 0px 0px;
+   width: 100%;
+}
+
+.image-desktop {
+    display: none;
+}
+
+h3 {
+    letter-spacing: 2px;
+    font-family: "Fraunces";
+    padding: 15px;
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+}
+
+h1 {
+    padding: 15px;
+    font-family: "Montserrat";
+    font-weight: 700%;
+}
+
+p {
+    padding: 15px;
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+}
+
+.price {
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 35px;
+    padding: 15px;
+    color: hsl(158, 36%, 37%);
+}
+
+.small-price {
+    align-items: center;
+    text-decoration: line-through;
+}
+
+.button {
+    width: 270px;
+    height: 45px;
+    border-radius: 10px;
+    margin: 15px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-weight: 700;
+    border: none;
+    align-items: center;
+}
+
+.Descripition {
+background-color: white;
+border-radius: 10px;
+}
+button:hover {
+    background-color: rgb(4, 163, 4);
+}
+
+
+
+@media(min-width: 1440px) {
+
+    .Descripition {
+        display: flex;
+        margin: 350px 250px;
+        border-radius: 10px;
+        width: 800px;
+        background-color: white;
+    }
+    .image-mobile {
+        display: none;
+        
+    }
+
+    .image-desktop {
+        display: block;
+        border-radius: 10px 0px;
+       width: 400px;
+    }
+    h1 {
+        padding: 15px;
+        font-family: "Montserrat";
+        font-weight: 700%;
+        font-size: 55px;
+    }
+
+    h3 {
+        letter-spacing: 5px;
+        font-family: "Fraunces";
+        padding: 35px;
+        color: hsl(228, 12%, 48%);
+        font-size: 15px;
+        
+    }
+
+    p {
+        padding: 25px;
+        font-family: "Montserrat";
+        color: hsl(228, 12%, 48%);
+        letter-spacing: 1.5px;
+        
+    }
+
+    .main-descripition {
+        
+    }
+
+    .button {
+        width: 350px;
+        height: 55px;
+        border-radius: 10px;
+        margin: 15px;
+        background-color: hsl(158, 36%, 37%);
+        color: white;
+        font-weight: 700;
+        border: none;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+}
